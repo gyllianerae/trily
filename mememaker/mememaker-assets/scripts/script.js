@@ -276,14 +276,14 @@ randomBtn.onclick = () => {
     const randHead = randRange(0, 7);
     const randEyes = randRange(0, 4);
     const randMouth = randRange(0, 2);
-     const randBg = randRange(1, 8);
+    //  const randBg = randRange(1, 8);
     // const randbottom = randRange(0, 10);
     const randtop = randRange(0, 9);
 
     selectParts('head', randHead);
     selectParts('eyes', randEyes);
     selectParts('mouth', randMouth);
-    selectParts('bg', randBg);
+    // selectParts('bg', randBg);
     // selectParts('bottom', randbottom);
     selectParts('top', randtop);
 }
